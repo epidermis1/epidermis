@@ -77,6 +77,47 @@
 ?>
 
 
+<?php
+// // Database connection settings
+// $servername = "localhost";  // Database server (usually localhost)
+// $username = "root";         // Your MySQL username (default is "root")
+// $password = "";             // Your MySQL password (default is empty)
+// $dbname = "epidermis";    // Your database name
+
+// // Create connection to the database
+// $conn = new mysqli($servername, $username, $password, $dbname);
+
+// // Check connection
+// if ($conn->connect_error) {
+//     die("Connection failed: " . $conn->connect_error);
+// }
+
+// // Check if form is submitted
+// if ($_SERVER["REQUEST_METHOD"] == "POST") {
+//     // Retrieve form data
+//     $firstname = htmlspecialchars($_POST['firstname']);
+//     $lastname = htmlspecialchars($_POST['lastname']);
+//     $emailaddress = htmlspecialchars($_POST['email_address']);
+//     $whatsappnumber = htmlspecialchars($_POST['phone_number']);
+//     $emailaddress = htmlspecialchars($_POST['email_address']);
+//     $emailaddress = htmlspecialchars($_POST['email_address']);
+
+//     // Prepare and bind SQL statement to avoid SQL injection
+//     $stmt = $conn->prepare("INSERT INTO users (name, email, message) VALUES (?, ?, ?)");
+//     $stmt->bind_param("sss", $name, $email, $message); // "sss" means three strings are being bound
+
+//     // Execute the statement
+//     if ($stmt->execute()) {
+//         echo "New record created successfully";
+//     } else {
+//         echo "Error: " . $stmt->error;
+//     }
+
+//     // Close the statement and connection
+//     $stmt->close();
+//     $conn->close();
+// }
+?>
 
 
 
